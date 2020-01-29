@@ -1,95 +1,104 @@
 {
 	"meta": {
 		"charset": "utf-8",
-		"project": "youtube.com 1.3.9",
-		"language": "en",
-		"plural": "(n != 1)"
+		"project": "stb-demo 0.1.1",
+		"language": "ru",
+		"plural": "(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)"
 	},
 	"data": {
 		"": {
-			"Adult content": "Adult content",
-			"Author": "Author",
-			"Back": "Back",
-			"Best": "Best",
-			"Cancel": "Cancel",
-			"Categories": "Categories",
-			"Choose default video quality": "Choose default video quality",
-			"Close Guide": "Close Guide",
-			"Default extension": "Default extension",
-			"Error playing": "Error playing",
-			"Exit": "Exit",
-			"Exit from app?": "Exit from app?",
-			"Forward": "Forward",
-			"Guide": "Guide",
-			"Hide unwanted content": "Hide unwanted content",
-			"In order to apply a new language, you must restart the application": "In order to apply a new language, you must restart the application",
-			"Interface language": "Interface language",
-			"Language": "Language",
-			"Live broadcasts are not supported": "Live broadcasts are not supported",
-			"Login": "Login",
-			"Logout": "Logout",
-			"Logout from application?": "Logout from application?",
-			"Main": "Main",
-			"More": "More",
-			"My playlists": "My playlists",
-			"Next": "Next",
-			"No videos": "No videos",
-			"Off": "Off",
-			"Ok": "Ok",
-			"On": "On",
-			"Pause": "Pause",
-			"Play": "Play",
-			"Playlists": "Playlists",
-			"Previous": "Previous",
-			"Related videos": "Related videos",
-			"Safe mode": "Safe mode",
-			"Search": "Search",
-			"Settings": "Settings",
-			"Sign in": "Sign in",
-			"Subscriptions": "Subscriptions",
-			"To the main": "To the main",
-			"Upload date": "Upload date",
-			"Uploads on the channel": "Uploads on the channel",
-			"Video is not available": "Video is not available",
+			"Adult content": "Скрыть нежелательный контет",
+			"Author": "Автор",
+			"Back": "Назад",
+			"Best": "Лучшее",
+			"Cancel": "Отмена",
+			"Categories": "Категории",
+			"Choose default video quality": "Выберите качество видео по умолчанию",
+			"Close Guide": "Закрыть гид",
+			"Default extension": "Качество видео по умолчанию",
+			"Error playing": "Ошибка воспроизведения",
+			"Exit": "Выход",
+			"Exit from app?": "Выйти из приложения?",
+			"Forward": "Вперед",
+			"Guide": "Гид",
+			"Hide unwanted content": "Скрыть нежелательный контет",
+			"In order to apply a new language, you must restart the application": "Для того чтобы применить новый язык необходимо перезагрузить приложение",
+			"Interface language": "Язык интерфейса",
+			"Language": "Язык",
+			"Live broadcasts are not supported": "Прямые трансляции не поддерживаются",
+			"Login": "Авторизоваться",
+			"Logout": "Выйти из аккаунта",
+			"Logout from application?": "Выйти из аккаунта?",
+			"Main": "Главная",
+			"More": "Больше",
+			"My playlists": "Мои плейлисты",
+			"Next": "Следующий",
+			"No videos": "Нет видео",
+			"Off": "Выключен",
+			"Ok": "Ок",
+			"On": "Включен",
+			"Pause": "Пауза",
+			"Play": "Играть",
+			"Playlists": "Плейлисты",
+			"Previous": "Предыдущий",
+			"Related videos": "Похожие видео",
+			"Safe mode": "Безопастный режим",
+			"Search": "Поиск",
+			"Settings": "Настройки",
+			"Sign in": "Авторизоваться",
+			"Subscriptions": "Подписки",
+			"To the main": "На главную",
+			"Upload date": "Дата загрузки",
+			"Uploads on the channel": "Загрузки на канале",
+			"Video is not available": "Видео недоступно",
 			"View": [
-				"View",
-				"Views"
+				"Просмотр",
+				"Просмотра",
+				"Просмотров"
 			],
-			"You want to login into app?": "You want to login into app?",
+			"You want to login into app?": "Вы желаете авторизоваться?",
 			"Youtube": "Youtube",
-			"Youtube.com is a world famous video hosting, which allows users to watch, upload and share videos with their friends.": "Youtube.com is a world famous video hosting, which allows users to watch, upload and share videos with their friends.",
-			"ago": "ago",
+			"Youtube.com is a world famous video hosting, which allows users to watch, upload and share videos with their friends.": "Youtube.com  популярный мировой видеохостинг, где пользователи могут добавлять, просматривать, комментировать и делиться с друзьями видеозаписями.",
+			"ago": "назад",
 			"day": [
-				"day",
-				"days"
+				"день",
+				"дня",
+				"дней"
 			],
 			"hour": [
-				"hour",
-				"hours"
+				"час",
+				"часа",
+				"часов"
 			],
 			"minute": [
-				"minute",
-				"minutes"
+				"минута",
+				"минуты",
+				"минут"
 			],
 			"month": [
-				"month",
-				"months"
+				"месяц",
+				"месяца",
+				"месяцев"
 			],
 			"second": [
-				"second",
-				"seconds"
+				"секунда",
+				"секунды",
+				"се"
 			],
 			"subscriber": [
-				"subscriber",
-				"subscribers"
+				"подписчик",
+				"подписчика",
+				"подписчиков"
 			],
 			"view": [
-				"view",
-				"views"
+				"просмотр",
+				"просмотра",
+				"просмотров"
 			],
 			"year": [
-				"year",
-				"years"
+				"год",
+				"года",
+				"лет"
 			]
 		}
 	}
