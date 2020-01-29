@@ -1,1 +1,3 @@
-# youtube for MAG, fixed all video playback
+# YouTube
+Что исправлено:
+1. решена проблема с воспроизведением видео
