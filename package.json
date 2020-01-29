@@ -1,6 +1,6 @@
 {
 	"name": "YouTube",
-	"version": "2020",
+	"version": "4.0.0",
 	"description": "YouTube — популярный мировой видеохостинг, где пользователи могут добавлять, просматривать, комментировать и делиться с друзьями видеозаписями.",
 	"author": {
 		"name": "BetaMaster"
@@ -28,5 +28,19 @@
 				"active": "icons/2015.focus.png"
 			}
 		},
+		"options": [
+			{
+				"name": "language",
+				"desc": "Interface language. Supported list - https://github.com/GeraldBrooks/youtube#supported-interface-languages"
+			},
+			{
+				"name": "regionCode",
+				"desc": "Content will be relevant to the selected country. The parameter value is an ISO 3166-1 alpha-2 country code."
+			},
+			{
+				"name": "config",
+				"desc": "Url encoded path to file which control menu items, if not provided, use https://raw.githubusercontent.com/GeraldBrooks/youtube/master/config.json"
+			}
+		]
 	}
 }
